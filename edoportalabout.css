@@ -1,0 +1,253 @@
+body{
+  background-color:#e3e8e6; ;
+}
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #14213d;
+  color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.university-name {
+  font-size: 24px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.school {
+  background-color: #ffffff; 
+  padding: 30px;             
+  border-radius: 12px;       
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 0px auto;
+  font-family: 'Nunito', sans-serif; 
+}
+
+.tom {
+  font-weight: 700;
+  font-size: 28px;
+  color: #000000;            
+  text-align: center;       
+  margin-bottom: 20px;
+}
+
+.roll {
+  line-height: 1.6;
+  color: #333333;            
+  font-size: 16px;
+  text-align: justify;       
+}
+
+
+.dash {
+  display: block;
+  margin: 0 auto;         
+  width: 85%;
+  max-width: 1000px;        
+  height: auto;
+  border-radius: 35px;
+  font-weight: 600;
+}
+
+.main-nav a:hover {
+  color: #fca311;
+}
+
+.flex-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 100px auto;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.image-container img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+
+.text-container {
+  max-width: 600px;
+}
+
+.map-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f8f8f8;
+}
+
+.map-section h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.map-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 5px solid #66d85c;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.highlight {
+  color: #66d85c;
+  font-weight: bold;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body > .footer {
+  margin-top: auto;
+}
+
+
+.footer {
+  background-color: #14213d;
+  color: #ffffff;
+  padding: 30px 20px 15px;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin: 15px 30px;
+}
+
+.footer h3, .footer h4 {
+  color: #fca311;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  text-align: center;
+  color: #ccc;
+  font-size: 13px;
+  padding-top: 10px;
+  border-top: 1px solid #444;
+  margin-top: 20px;
+}
+
+
+.social-icons a {
+  color: #ffffff;
+  margin-right: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #fca311;
+}
+
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  padding: 40px;
+}
+
+/* Back to Top Button Styles */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 999;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-to-top:hover {
+  background-color: #333;
+  transform: translateY(-3px);
+}
+
+
