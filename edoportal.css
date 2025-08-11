@@ -367,7 +367,7 @@ body {
 
 @media (max-width: 1000px) {
   .card-section {
-    flex-direction: column;
+    flex-direction: block;
     align-items: center;
   }
 }
