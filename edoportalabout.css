@@ -211,10 +211,16 @@ body > .footer {
 
 
 @media (max-width: 768px) {
-  .footer-container {
+  .site-header {
     flex-direction: column;
     text-align: center;
   }
+  .logo-section .main-nav {
+    float: none;
+    text-align: center;
+
+  }
+  
 }
 
 body {

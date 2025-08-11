@@ -221,10 +221,16 @@ body, html {
 
 
 @media (max-width: 768px) {
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
+  .site-header{
+    flex-direction: block;
+    width: 100%;
+    text-align: center;
   }
+  .main-nav .logo-section {
+    float: none;
+    text-align: center;
+  }
+  
 
   .footer-section {
     text-align: center;
