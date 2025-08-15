@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Image Slider</title>
-  <link rel="stylesheet" href="./edomedia.css"/>
-</head>
-<body>
-    <header class="site-header">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="./edomedia.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+  <body>
+    <!-- <header class="site-header"> 
     <div class="logo-section">
-      <img src="./BLUE LOGO B SCHOOL.jpg" alt="Edo State University Logo" class="logo">
-      <span class="university-name">Edo State University</span>
+      <img
+        src="./assets/logo.jpg"
+        alt="Edo State University Logo"
+        class="logo"
+      />
+      <span class="university-name">EDO STATE UNIVERSITY</span>
     </div>
     <nav class="main-nav">
       <ul>
@@ -22,142 +28,249 @@
         <li><a href="#">Media</a></li>
       </ul>
     </nav>
-  </header>
+   </header> -->
 
-   <div class="background-image"></div>
-    
-
-<div class="content">
-
-  <h1>Welcome to Our Media Page</h1>
-  <p>Explore our latest photos, videos, and news.</p>
-</div>
-
-
-<div class="slider-container">
-  <div class="slider">
-    <div class="slide-track">
-      
-      <div class="slide">
-        <img src="./picture one .jpg" alt="Image 1">
-        <img src="./picture two.jpg" alt="Image 2">
+    <header class="site-header">
+      <div class="logo-section">
+        <img
+          src="./assets/logo.jpg"
+          alt="Edo State University Logo"
+          class="logo"
+        />
+        <span class="university-name">EDO STATE UNIVERSITY </span>
       </div>
-      
-      <div class="slide">
-        <img src="./WhatsApp 2222 Image 2025-06-02 at 18.24.55_9b0815c7.jpg" alt="Image 3">
-        <img src="./school Image 2025-05-27 at 09.52.38_dd947931.jpg" alt="Image 4">
+      <div class="menu-container">
+        <nav class="main-nav">
+          <ul id="menu-list">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="./edoportallogin.html">Login</a></li>
+            <li><a href="./edoportalabout.html">About</a></li>
+            <li><a href="#">Admissions</a></li>
+            <li><a href="#">Academics</a></li>
+            <li><a href="./edomedia.html">Media</a></li>
+          </ul>
+        </nav>
       </div>
+      <button id="burger-menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-align-left-icon lucide-align-left"
+        >
+          <path d="M15 12H3" />
+          <path d="M17 18H3" />
+          <path d="M21 6H3" />
+        </svg>
+      </button>
+    </header>
+
+    <div class="background-image"></div>
+
+    <div class="content">
+      <h1>Welcome to Our Media Page</h1>
+      <p>Explore our latest photos, videos, and news.</p>
     </div>
-  </div>
 
-  <div class="caption-box">
-    <h3>Edo State University</h3>
-    <p>
-       at EDO STATE UNIVERISTY, we believe that innovation is not just about technology.
-        We see innovation as doing things differently to achieve a better result. 
-        This has led to the birth of The Ubemilin Centre for Tomorrow (Edo state university Innovation hub). 
-        The term Ubemilin is coined from the local Benin dialect meaning ‘to nurture’. 
-        The Ubemilin Centre for Tomorrow is Wellspring University’s intervention vehicle to nurture, 
-        manage and promote innovative thinking and initiatives. Here, we would birth social impact enterprises, 
-        entrepreneurial ideas, promote advocacy and leadership initiatives beyond the classroom.
-    </p>
-  </div>
-</div>
+    <div class="slider-container">
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+            <img src="./picture one .jpg" alt="Image 1" />
+            <img src="./picture two.jpg" alt="Image 2" />
+          </div>
 
-<div class="slider-container">
-  <div class="slider">
-    <div class="slide-track">
-     
-      <div class="slide">
-        <img src="./picture four.jpg" alt="Image 1">
-        <img src="./picture five.jpg" alt="Image 2">
+          <div class="slide">
+            <img
+              src="./WhatsApp 2222 Image 2025-06-02 at 18.24.55_9b0815c7.jpg"
+              alt="Image 3"
+            />
+            <img
+              src="./school Image 2025-05-27 at 09.52.38_dd947931.jpg"
+              alt="Image 4"
+            />
+          </div>
+        </div>
       </div>
-      
-      <div class="slide">
-        <img src="./WhatsApp Image  one 2025-05-27 at 11.36.39_9472ecbe.jpg" alt="Image 3">
-        <img src="./WhatsApp Image  two 2025-05-27 at 11.32.46_2edf1177.jpg" alt="Image 4">
-      </div>
-    </div>
-  </div>
 
-  <div class="caption-box">
-    <h3>Edo State University</h3>
-    <p>
-      Empowering the next generation of innovators and business leaders, 
-      the Babcock University Entrepreneurship Centre provides students with 
-      the skills, resources, and opportunities to launch and scale their ventures. 
-      Through hands-on training, mentorship, and strategic partnerships, the centre 
-      fosters a culture of creativity and enterprise. Explore our programs, events, 
-      and success stories.
-    </p>
-  </div>
-  </div>
-
- <button class="back-to-top" onclick="scrollToTop()" title="Go to top">
-    ↑
-  </button>
-
-  <script>
-
-    function scrollToTop() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-  </script>
-
-  <div class="school">
-  </div>
-  <footer class="footer">
-  <div class="footer-container">
-    <div class="footer-section">
-      <h3>EDO STATE UNIVERSITY</h3>
-      <p>The vision of Edo State University
-         Iyamho, is to become a centre of 
-         excellence in quality teaching, 
-        research, innovations and community development.</p>
-    </div>
-    <div class="footer-section">
-      <h4>Contact</h4>
-      <p>Address: Km7, Auchi-Abuja Road,
-        Iyamho-Uzairue Edo State, Nigeria</p>
-      <p>Phone: +234 802 345 6789</p>
-      <p>Email: registrar@edouniversity.edu.ng</p>
-    </div>
-    <div class="footer-section">
-      <h4>Follow Us</h4>
-      <div class="social-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
+      <div class="caption-box">
+        <h3>Edo State University</h3>
+        <p>
+          at EDO STATE UNIVERISTY, we believe that innovation is not just about
+          technology. We see innovation as doing things differently to achieve a
+          better result. This has led to the birth of The Ubemilin Centre for
+          Tomorrow (Edo state university Innovation hub). The term Ubemilin is
+          coined from the local Benin dialect meaning ‘to nurture’. The Ubemilin
+          Centre for Tomorrow is Wellspring University’s intervention vehicle to
+          nurture, manage and promote innovative thinking and initiatives. Here,
+          we would birth social impact enterprises, entrepreneurial ideas,
+          promote advocacy and leadership initiatives beyond the classroom.
+        </p>
       </div>
     </div>
-    <div class="footer-section">
-      <h4>Community</h4>
-      <p>About us</p>
-      <p>Contact us</p>
-      <p>FAQ</p>
+
+    <div class="slider-container">
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+            <img src="./picture four.jpg" alt="Image 1" />
+            <img src="./picture five.jpg" alt="Image 2" />
+          </div>
+
+          <div class="slide">
+            <img
+              src="./WhatsApp Image  one 2025-05-27 at 11.36.39_9472ecbe.jpg"
+              alt="Image 3"
+            />
+            <img
+              src="./WhatsApp Image  two 2025-05-27 at 11.32.46_2edf1177.jpg"
+              alt="Image 4"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="caption-box">
+        <h3>Edo State University</h3>
+        <p>
+          Empowering the next generation of innovators and business leaders, the
+          Babcock University Entrepreneurship Centre provides students with the
+          skills, resources, and opportunities to launch and scale their
+          ventures. Through hands-on training, mentorship, and strategic
+          partnerships, the centre fosters a culture of creativity and
+          enterprise. Explore our programs, events, and success stories.
+        </p>
+      </div>
     </div>
 
-     <div class="footer-section">
-      <h4>Resources</h4>
-      <p>Help Center</p>
-      <p>Events</p>
-      <p>Partners</p>
+    <div class="slider-container">
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+            <img src="./assets/picture 1.jpg" alt="Image 1" />
+            <img src="./assets/picture 2.jpg" alt="Image 2" />
+          </div>
+
+          <div class="slide">
+            <img src="./assets/picture 3 hod.jpg" alt="Image 3" />
+            <img src="./assets/picture 7.jpg" alt="Image 4" />
+          </div>
+        </div>
+      </div>
+
+      <div class="caption-box">
+        <h3>Edo State University</h3>
+        <p>
+          University lectures are more than just classes they are opportunities
+          to gain knowledge, learn from experts, and develop critical thinking.
+          They teach discipline, encourage active participation, and inspire
+          curiosity. Beyond helping with exams, lectures prepare students for
+          life by challenging their perspectives and fostering growth.
+        </p>
+      </div>
     </div>
 
-     <div class="footer-section">
-      <h4>ESUI</h4>
-      <p>Why ESUI</p>
-      <p>Program</p>
-      <p>Scholarship</p>
+    <div class="slider-container">
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+            <img src="./assets/picture 6.jpg" alt="Image 1" />
+            <img src="./assets/picture 12.jpg" alt="Image 2" />
+          </div>
+
+          <div class="slide">
+            <img src="./assets/picture 10.jpg" alt="Image 3" />
+            <img src="./assets/picture 9.jpg" alt="Image 4" />
+          </div>
+        </div>
+      </div>
+
+      <div class="caption-box">
+        <h3>Edo State University</h3>
+        <p>
+          Lectures in university aren’t just about taking notes for exams.
+          They’re a chance to learn from experts, ask questions, share ideas,
+          and grow. The more you engage, the more you gain — not just for
+          school, but for life.
+        </p>
+      </div>
     </div>
 
-  </div>
-  <div class="footer-bottom">
-    &copy; 2025 EDO STATE UNIVERSITY. All rights reserved.
-  </div>
-</footer>
-</body>
-</html>
+    <button class="back-to-top" onclick="scrollToTop()" title="Go to top">
+      ↑
+    </button>
 
-</body>
+    <script>
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+
+    <div class="school"></div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>EDO STATE UNIVERSITY</h3>
+          <p>
+            The vision of Edo State University Iyamho, is to become a centre of
+            excellence in quality teaching, research, innovations and community
+            development.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <p>
+            Address: Km7, Auchi-Abuja Road, Iyamho-Uzairue Edo State, Nigeria
+          </p>
+          <p>Phone: +234 802 345 6789</p>
+          <p>Email: registrar@edouniversity.edu.ng</p>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Community</h4>
+          <p>About us</p>
+          <p>Contact us</p>
+          <p>FAQ</p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Resources</h4>
+          <p>Help Center</p>
+          <p>Events</p>
+          <p>Partners</p>
+        </div>
+
+        <div class="footer-section">
+          <h4>ESUI</h4>
+          <p>Why ESUI</p>
+          <p>Program</p>
+          <p>Scholarship</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2025 EDO STATE UNIVERSITY. All rights reserved.
+      </div>
+    </footer>
+
+    <!--  -->
+    <script>
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+    <script src="./js/index.js"></script>
+  </body>
 </html>

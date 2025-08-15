@@ -1,0 +1,40 @@
+/* mobile first approach */
+/* desktop first approach */
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+    overflow: hidden;
+  }
+
+  .about {
+    font-size: 18px;
+  }
+
+  .main-nav ul {
+    display: block;
+  }
+
+  #burger-menu {
+    display: block;
+  }
+
+  .university-name {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-nav,
+  .logo-section {
+    float: none;
+    text-align: center;
+  }
+
+  .main-nav li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+/* ABSOLUTE UNIT AND RELATIVE UNIT */

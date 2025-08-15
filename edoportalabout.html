@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>About Edo State University</title>
   <link rel="stylesheet" href="./edoportalabout.css" />
+  <link rel="stylesheet" href="./css/global.css" />
+  <link rel="stylesheet" href="./css/media.css">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet"/>
@@ -12,8 +14,48 @@
 </head>
 <body>
 
-  
-  <header class="site-header">
+   <header class="site-header">
+      <div class="logo-section">
+        <img
+          src="./assets/logo.jpg"
+          alt="Edo State University Logo"
+          class="logo"
+        />
+        <span class="university-name">EDO STATE UNIVERSITY </span>
+      </div>
+      <div class="menu-container">
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="./edoportallogin.html">Login</a></li>
+            <li><a href="./edoportalabout.html">About</a></li>
+            <li><a href="#">Admissions</a></li>
+            <li><a href="#">Academics</a></li>
+            <li><a href="./edomedia.html">Media</a></li>
+          </ul>
+        </nav>
+      </div>
+      <button id="burger-menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-align-left-icon lucide-align-left"
+        >
+          <path d="M15 12H3" />
+          <path d="M17 18H3" />
+          <path d="M21 6H3" />
+        </svg>
+      </button>
+    </header>
+
+  <!-- <header class="site-header">
     <div class="logo-section">
       <img src="./BLUE LOGO B SCHOOL.jpg" alt="Edo State University Logo" class="logo">
       <span class="university-name">Edo State University</span>
@@ -28,7 +70,7 @@
         <li><a href="./edomedia.html">Media</a></li>
       </ul>
     </nav>
-  </header>
+  </header> -->
 
   
   <div>
@@ -152,5 +194,14 @@
     &copy; 2025 EDO STATE UNIVERSITY. All rights reserved.
   </div>
 </footer>
+
+<!--  -->
+    <script>
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+    <script src="./js/index.js"></script>
+  </body>
 </body>
 </html>
