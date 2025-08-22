@@ -15,3 +15,20 @@ burgerMenu.addEventListener("click", () => {
 menuItems.forEach((link) => {
   link.addEventListener("click", (e) => {});
 });
+
+const currentPath = window.location.pathname;
+
+function setActiveLink() {
+  menuItems.forEach((link) => {
+    const currentLinkInLoop = link.getAttribute("href");
+    const purgeLink = currentLinkInLoop.replace(".", "");
+    console.log(purgeLink);
+    console.log(currentPath);
+
+    if (currentPath === purgeLink) {
+      link.setAttribute("style", "color: #fff");
+    }
+  });
+}
+
+setActiveLink();

@@ -7,6 +7,14 @@
     overflow: hidden;
   }
 
+  .main-nav a {
+    font-size: 30px;
+  }
+
+  .hide-menu {
+    display: none;
+  }
+
   .about {
     font-size: 18px;
   }
