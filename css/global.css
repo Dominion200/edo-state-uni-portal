@@ -92,10 +92,6 @@ body {
   color: #fca311;
 }
 
-.active {
-  border-bottom: 3px solid #ccc;
-}
-
 .main-nav li {
   /* display: inline-block;
   margin-left: 30px; */
