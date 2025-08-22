@@ -28,6 +28,12 @@
 }
 
 /* MY EFFECT */
+
+body {
+  position: relative;
+  overflow: hidden;
+}
+
 .hide-content {
   display: none;
 }
