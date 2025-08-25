@@ -155,6 +155,10 @@ body {
   margin: 0 3px;
   width: 30px;
   height: 30px;
+  /* background-color: red; */
+}
+.fa-icons {
+  color: #14213d;
 }
 
 .toggle-container {

@@ -1,16 +1,15 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
-  background-image: url('./picture\ four.jpg'); 
-  background-size: cover;         
-  background-position: center;     
-  background-repeat: no-repeat;   
-  background-attachment: fixed;    
-  
-  color: #fff;                    
+  background-image: url("./picture\ four.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  color: #fff;
 }
 
 /* .site-header {
@@ -71,10 +70,9 @@ body {
   color: #fca311;
 } */
 
-
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   background-color: #f4f4f4;
   display: flex;
   flex-direction: column;
@@ -92,7 +90,7 @@ body {
   width: 100%;
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
 
@@ -111,15 +109,25 @@ body {
   width: 50%;
   height: 300px;
   object-fit: cover;
+  object-position: center;
 }
 
-
 @keyframes slide {
-  0%   { transform: translateX(0); }
-  45%  { transform: translateX(0); }
-  50%  { transform: translateX(-100%); }
-  95%  { transform: translateX(-100%); }
-  100% { transform: translateX(0); }
+  0% {
+    transform: translateX(0);
+  }
+  45% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  95% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .caption-box {
@@ -127,7 +135,7 @@ body {
   border-left: 5px solid #004080;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .caption-box h3 {
@@ -141,34 +149,32 @@ body {
   line-height: 1.6;
 }
 
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f5f5f5;
   color: #333;
 }
-
 
 .school {
   padding: 50px;
   text-align: center;
 }
 
-
 .footer {
   background-color: #14213d;
   color: #ffffff;
   padding: 30px 20px 15px;
   width: 100%;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
   overflow: auto;
 }
@@ -186,7 +192,8 @@ body, html {
   margin: 15px;
 }
 
-.footer h3, .footer h4 {
+.footer h3,
+.footer h4 {
   color: #fca311;
   margin-bottom: 10px;
 }
@@ -206,7 +213,6 @@ body, html {
   margin-top: 20px;
 }
 
-
 .social-icons a {
   color: #ffffff;
   margin-right: 10px;
@@ -218,7 +224,6 @@ body, html {
 .social-icons a:hover {
   color: #fca311;
 }
-
 
 /* @media (max-width: 768px) {
   .site-header{
@@ -237,28 +242,26 @@ body, html {
   }
 } */
 
-
 .background-image {
-  position: fixed;        
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;           
-  height: 100vh;          
-  background-image: url('path/to/your-image.jpg');
-  background-size: cover;    
+  width: 100vw;
+  height: 100vh;
+  background-image: url("path/to/your-image.jpg");
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  z-index: -1;        
-  filter: brightness(0.7); 
+  z-index: -1;
+  filter: brightness(0.7);
 }
-
 
 .content {
   position: relative;
   z-index: 1;
-  color: #14213d;; 
+  color: #14213d;
   padding: 40px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .back-to-top {
@@ -267,7 +270,7 @@ body, html {
   right: 30px;
   width: 50px;
   height: 50px;
-  background-color: #007BFF; 
+  background-color: #007bff;
   color: white;
   font-size: 24px;
   border: none;
