@@ -37,10 +37,11 @@
   .menu-container {
     position: absolute;
     right: 0;
-    top: 100px;
+    top: 80px;
     height: 100svh;
     width: 100svw;
     background: rgba(20, 33, 62, 0.8);
+    z-index: 9999;
   }
 
   .university-name {
