@@ -6,6 +6,9 @@
     display: none;
     overflow: hidden;
   }
+  #menu-list {
+    height: 70svh;
+  }
 
   .main-nav a {
     font-size: 30px;
@@ -25,6 +28,19 @@
 
   #burger-menu {
     display: block;
+  }
+
+  #menu-list {
+    flex-direction: column;
+  }
+
+  .menu-container {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    height: 100svh;
+    width: 100svw;
+    background: rgba(20, 33, 62, 0.8);
   }
 
   .university-name {

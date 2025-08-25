@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px) {
+  .container {
+    width: 95svw;
+    min-height: 620px;
+  }
+
+  .form-container {
+    top: 220px;
+  }
+
+  .sign-in,
+  .sign-up {
+    width: 100%;
+  }
+
+  .container.active .sign-in {
+    transform: translateY(-100%);
+  }
+
+  .container.active .sign-up {
+    transform: translateY(0%);
+  }
+
+  .toggle-container {
+    width: 100%;
+    height: 200px;
+    left: 0;
+    border-radius: 0 0 50px 50px;
+  }
+
+  .sign-up {
+    transform: translateY(100%);
+  }
+
+  .container.active .toggle-container {
+    transform: translateX(0%);
+    border-radius: 0 0 50px 50px;
+  }
+}

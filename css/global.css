@@ -21,7 +21,9 @@ body {
 }
 
 .site-header {
-  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 20px;
   padding: 20px 0;
   width: 100%;
@@ -80,20 +82,15 @@ body {
   color: #fca311;
 }
 
-.menu-container {
-  position: absolute;
-  right: 0;
-  top: 100px;
-  height: 100svh;
-  width: 100svw;
-  background: rgba(20, 33, 62, 0.8);
-}
-
 #menu-list {
   display: flex;
-  flex-direction: column;
   gap: 20px;
-  height: 70svh;
   align-items: center;
   justify-content: center;
+}
+
+.prevent-body-scroll {
+  overflow-y: hidden;
+  overflow-y: hidden !important;
+  height: 100svh !important;
 }
